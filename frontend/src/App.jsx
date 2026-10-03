@@ -92,7 +92,7 @@ export default function App() {
             <div className="brand-icon">
               <Brain size={18} />
             </div>
-            <span>DSA AI Agent</span>
+            <span>Multi AI Agent</span>
           </div>
 
           <div className="mode-switcher">
