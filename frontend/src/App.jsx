@@ -109,7 +109,7 @@ export default function App() {
 
           <div className="header-right">
             <button className="github-btn">
-              <span>GitHub</span>
+              <a src="https://github.com/CodeDushyant/DSA_AI_AGENT">GitHub</>
             </button>
           </div>
         </header>
