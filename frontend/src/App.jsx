@@ -122,13 +122,13 @@ export default function App() {
                 <Brain size={32} />
               </div>
               <h1 className="main-title">
-                Welcome to <span>DSA AI Agent</span>
+                Welcome to <span>Multi AI Agent</span>
               </h1>
               <p className="subtitle">
-                Your AI-powered DSA tutor, built by Dushyant.
+                Your AI-powered tutor.
               </p>
               <p className="description">
-                Ask me anything about Data Structures & Algorithms.
+                Ask me anything.
               </p>
             </div>
           )}
@@ -233,7 +233,7 @@ export default function App() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={handleKeyDown}
-                  placeholder="Ask a DSA question..."
+                  placeholder="Ask a question..."
                   className="chat-input"
                 />
 
@@ -257,16 +257,16 @@ export default function App() {
                   <Code2 size={14} /> Binary Search
                 </button>
                 <button onClick={() => setInput("Explain time and space complexity")}>
-                  <Brain size={14} /> Complexity
+                  <Brain size={14} /> Work
                 </button>
                 <button onClick={() => setInput("How does DFS work?")}>
-                  <Sparkles size={14} /> DFS
+                  <Sparkles size={14} /> Job
                 </button>
               </div>
             )}
 
             <p className="bottom-text">
-              DSA AI Agent only answers Data Structures & Algorithms questions.
+              Multi AI Agent answers Your questions.
             </p>
           </div>
         </div>
